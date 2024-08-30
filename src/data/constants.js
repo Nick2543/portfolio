@@ -10,7 +10,7 @@ export const Bio = {
       "I am a driven and adaptable professional, consistently eager to take on new challenges. My passion for continuous learning fuels my dedication to delivering outstanding results. With a positive attitude and a commitment to growth, I am prepared to make a meaningful impact and achieve exceptional outcomes.",
     github: "https://github.com/Nick2543",
     resume:
-      "https://drive.google.com/file/d/1Xl-rZmmJs4zcTqSB1fvMhSsrPnNsnR5H/view?usp=drive_link",
+      "https://drive.google.com/file/d/1fw_nJ6kgFaA7etl6rkJfkDp4aN-drK65/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/nicksha2543/",
   };
 
