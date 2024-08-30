@@ -86,7 +86,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Nikhil Sharma</Logo>
+        <Logo>Nikhil 'Nick' Sharma</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -99,7 +99,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="_blank"><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Nikhil Sharma. All rights reserved.
+          &copy; 2024 Nikhil 'Nick' Sharma. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

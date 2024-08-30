@@ -1,5 +1,5 @@
 export const Bio = {
-    name: "Nikhil Sharma",
+    name: "Nikhil 'Nick' Sharma",
     roles: [
       "Software Developer",
       "Full Stack Developer",
@@ -10,7 +10,7 @@ export const Bio = {
       "I am a driven and adaptable professional, consistently eager to take on new challenges. My passion for continuous learning fuels my dedication to delivering outstanding results. With a positive attitude and a commitment to growth, I am prepared to make a meaningful impact and achieve exceptional outcomes.",
     github: "https://github.com/Nick2543",
     resume:
-      "",
+      "https://drive.google.com/file/d/1Xl-rZmmJs4zcTqSB1fvMhSsrPnNsnR5H/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/nicksha2543/",
   };
 
@@ -98,6 +98,16 @@ export const Bio = {
           name: "PostgreSQL",
           image:
             "https://static-00.iconduck.com/assets.00/postgresql-icon-2048x2026-2lkx6hk5.png",
+        },
+        {
+          name: "AWS",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBcTsWxmjnaDjIOU4KrGplw49J5T1uniI3meL5qAdxyPmU0XPsxodHxDlnbSmKcT8cOKM&usqp=CAU",
+        },
+        {
+          name: "Docker",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12-on3YBaxX5gXPxZ_915UXiGcKb5vpVFFqMshyr4Dpxhsosgq5Xo2HpCHAlG6p17zyE&usqp=CAU",
         },
       ],
     },
@@ -328,6 +338,7 @@ export const Bio = {
         "Java",
         "Python",
         "Machine Learning",
+        "SciKit Learn",
       ],
       category: "full stack",
       github: "https://github.com/Nick2543/Premier-League-Website",
@@ -354,6 +365,58 @@ export const Bio = {
     },
     {
       id: 3,
+      title: "FitClub",
+      date: "May 2024",
+      description:
+        "FitClub is a dynamic fitness-oriented website created using React.js and CSS, designed to provide an engaging user experience. The website offers a sleek and modern interface, making it easy for users to explore various fitness programs, tips, and resources. Built with React.js, FitClub efficiently manages user interactions, ensuring smooth navigation and quick content updates. The use of CSS adds a layer of visual appeal, enhancing the overall look and feel with responsive layouts and attractive design elements, making it an ideal platform for fitness enthusiasts.",
+      image:
+        "https://github.com/user-attachments/assets/00dac9b4-cf76-43ae-ab6f-4acce2c870dc",
+      tags: [
+        "React Js",
+        "JavaScript",
+        "CSS",
+        "HTML",
+      ],
+      category: "front end",
+      github: "https://github.com/Nick2543/Fitclub",
+    },
+    {
+      id: 4,
+      title: "Spring Security",
+      date: "Jun. 2024",
+      description:
+        "Spring Security showcases the implementation of a robust user authentication system using Spring Boot, focusing on secure user signup, login, and email verification processes. Key features include user registration with an integrated email verification flow, where a verification code is sent to the user's email and validated before account activation. Upon successful login, a JWT token is generated to ensure secure communication in subsequent requests. The project also includes endpoints to fetch authenticated user details and implements basic error handling and exception logging to enhance the application's reliability and maintainability.",
+      image:
+        "https://github.com/user-attachments/assets/ea99e2e8-0ca2-4cf2-911d-4557139d5866",
+      tags: [
+        "Spring Boot",
+        "Java",
+        "JWT Authentication",
+        "Postman",
+      ],
+      category: "back end",
+      github: "https://github.com/Nick2543/Spring-Security",
+    },
+    {
+      id: 5,
+      title: "Stock Price Predictor",
+      date: "Jul. 2024",
+      description:
+        "This is a stock price predictor using historical data of the S&P 500 index. The project leverages Python's yfinance library to fetch historical stock data and uses the pandas library for data manipulation and analysis. The primary goal is to predict whether the S&P 500's closing price will increase the next day. The data is prepared by calculating rolling averages and trends over different time horizons. A Random Forest Classifier from the scikit-learn library is employed to create a model that predicts the market trend. The performance of the model is evaluated using precision scores, and the results are visualized to understand its effectiveness.",
+      image:
+        "https://github.com/user-attachments/assets/15ee4695-0502-4861-8122-9a11a97df99e",
+      tags: [
+        "Python",
+        "Machine Learning",
+        "Pandas",
+        "Yahoo Finance",
+        "SciKit Learn",
+      ],
+      category: "back end",
+      github: "https://github.com/Nick2543/Stock-Price-Predictor",
+    },
+    {
+      id: 6,
       title: "Little Lemon Front-End",
       date: "Nov. 2023 - Mar. 2024",
       description:
@@ -373,7 +436,7 @@ export const Bio = {
       github: "https://github.com/Nick2543/Front---End-Capstone",
     },
     {
-      id: 4,
+      id: 7,
       title: "Little Lemon Back-End",
       date: "Nov. 2023 - Mar. 2024",
       description:
@@ -389,58 +452,6 @@ export const Bio = {
       ],
       category: "back end",
       github: "https://github.com/Nick2543/Back---End-Capstone",
-    },
-    {
-      id: 5,
-      title: "FitClub",
-      date: "May 2024",
-      description:
-        "FitClub is a dynamic fitness-oriented website created using React.js and CSS, designed to provide an engaging user experience. The website offers a sleek and modern interface, making it easy for users to explore various fitness programs, tips, and resources. Built with React.js, FitClub efficiently manages user interactions, ensuring smooth navigation and quick content updates. The use of CSS adds a layer of visual appeal, enhancing the overall look and feel with responsive layouts and attractive design elements, making it an ideal platform for fitness enthusiasts.",
-      image:
-        "https://github.com/user-attachments/assets/00dac9b4-cf76-43ae-ab6f-4acce2c870dc",
-      tags: [
-        "React Js",
-        "JavaScript",
-        "CSS",
-        "HTML",
-      ],
-      category: "front end",
-      github: "https://github.com/Nick2543/Fitclub",
-    },
-    {
-      id: 6,
-      title: "Spring Security",
-      date: "Jun. 2024",
-      description:
-        "Spring Security showcases the implementation of a robust user authentication system using Spring Boot, focusing on secure user signup, login, and email verification processes. Key features include user registration with an integrated email verification flow, where a verification code is sent to the user's email and validated before account activation. Upon successful login, a JWT token is generated to ensure secure communication in subsequent requests. The project also includes endpoints to fetch authenticated user details and implements basic error handling and exception logging to enhance the application's reliability and maintainability.",
-      image:
-        "https://github.com/user-attachments/assets/ea99e2e8-0ca2-4cf2-911d-4557139d5866",
-      tags: [
-        "Spring Boot",
-        "Java",
-        "JWT Authentication",
-        "Postman",
-      ],
-      category: "back end",
-      github: "https://github.com/Nick2543/Spring-Security",
-    },
-    {
-      id: 7,
-      title: "Stock Price Predictor",
-      date: "Jul. 2024",
-      description:
-        "This is a stock price predictor using historical data of the S&P 500 index. The project leverages Python's yfinance library to fetch historical stock data and uses the pandas library for data manipulation and analysis. The primary goal is to predict whether the S&P 500's closing price will increase the next day. The data is prepared by calculating rolling averages and trends over different time horizons. A Random Forest Classifier from the scikit-learn library is employed to create a model that predicts the market trend. The performance of the model is evaluated using precision scores, and the results are visualized to understand its effectiveness.",
-      image:
-        "https://github.com/user-attachments/assets/15ee4695-0502-4861-8122-9a11a97df99e",
-      tags: [
-        "Python",
-        "Machine Learning",
-        "Pandas",
-        "Yahoo Finance",
-        "SKLearn",
-      ],
-      category: "back end",
-      github: "https://github.com/Nick2543/Stock-Price-Predictor",
     },
   ];
 
