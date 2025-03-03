@@ -99,7 +99,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="_blank"><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Nikhil 'Nick' Sharma. All rights reserved.
+          &copy; 2025 Nikhil 'Nick' Sharma. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
